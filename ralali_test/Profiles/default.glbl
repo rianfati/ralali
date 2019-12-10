@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>apikey</name>
+      <name>apiKey</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

@@ -12,7 +12,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object apikey
+    public static Object apiKey
      
     /**
      * <p></p>
@@ -26,7 +26,7 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            apikey = selectedVariables['apikey']
+            apiKey = selectedVariables['apiKey']
             s = selectedVariables['s']
             
         } catch (Exception e) {

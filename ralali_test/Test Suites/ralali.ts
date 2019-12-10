@@ -15,22 +15,31 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ralali</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d465f6cc-1a65-4795-9a45-3ee9ec2c8ace</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/ralali</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d465f6cc-1a65-4795-9a45-3ee9ec2c8ace</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>apikey</value>
          <variableId>17241b7a-b7f0-4d9e-98b8-4079df398091</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d465f6cc-1a65-4795-9a45-3ee9ec2c8ace</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>search</value>
          <variableId>457a4d18-f9bc-46f3-8bd3-7ac4ec62df98</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d465f6cc-1a65-4795-9a45-3ee9ec2c8ace</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>response</value>
          <variableId>2faacd1a-b437-46a1-92fe-4d40fcdd0a35</variableId>
       </variableLink>
    </testCaseLink>

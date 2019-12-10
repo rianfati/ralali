@@ -9,7 +9,7 @@ import groovy.json.JsonSlurper
 import internal.GlobalVariable
 
 //define input
-GlobalVariable.apikey = apiKey
+GlobalVariable.apiKey = apiKey
 GlobalVariable.s = s
 
 //post to api
