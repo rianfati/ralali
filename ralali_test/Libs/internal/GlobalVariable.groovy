@@ -9,6 +9,16 @@ import com.kms.katalon.core.main.TestCaseMain
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object apikey
+     
+    /**
+     * <p></p>
+     */
+    public static Object s
+     
 
     static {
         try {
@@ -16,6 +26,8 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+            apikey = selectedVariables['apikey']
+            s = selectedVariables['s']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

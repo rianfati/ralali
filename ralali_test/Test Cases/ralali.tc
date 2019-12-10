@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ralali</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c410b21-dd51-4026-9435-1c930f7c7c7f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>17241b7a-b7f0-4d9e-98b8-4079df398091</id>
+      <masked>false</masked>
+      <name>apiKey</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>457a4d18-f9bc-46f3-8bd3-7ac4ec62df98</id>
+      <masked>false</masked>
+      <name>s</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2faacd1a-b437-46a1-92fe-4d40fcdd0a35</id>
+      <masked>false</masked>
+      <name>responseStatusCode</name>
+   </variable>
+</TestCaseEntity>
