@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\ralali_test\\ralali_test\\Reports\\ralali\\20191210_200232\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\ralali_test\\ralali_test\\Reports\\ralali\\20191210_203001\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/ralali', suiteProperties, [new TestCaseBinding('Test Cases/ralali', 'Test Cases/ralali',  [ 'responseStatusCode' : '200' , 's' : 'Lord' , 'apiKey' : 'b0aa8ce' ,  ])])
+TestCaseMain.startTestSuite('Test Suites/ralali', suiteProperties, [new TestCaseBinding('Test Cases/ralali', 'Test Cases/ralali',  [ 'responseStatusCode' : '401' , 's' : '' , 'apiKey' : '' ,  ])])
